@@ -73,8 +73,9 @@ class Controller
     index = @view.which_recipe_to_complete
     # We find corresponding recipe in cookbook repository
     recipe = @cookbook.all[index]
-    # we mark the recipe instance as done
-    recipe.mark_as_done
+    # we call on the cookbook to mark the recipe as done
+    # This way we can also save to csv after marking it
+    @cookbook.mark_recipe_as_done(recipe)
   end
 
   def destroy

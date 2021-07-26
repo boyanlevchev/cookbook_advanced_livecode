@@ -1,5 +1,7 @@
-Pizza,"Cheese, tomatoes, dough",
-Soup,"Vegetables, water",
-garlic bread,"garlic, bread",
-"""PERFECTLY CHOCOLATE"" Chocolate Cake",Chocolate cake that melts in your mouth for the best chocolate delight every time.,
-Chocolate Jumbo,Frosted chocolate and molasses spicy cookie.,24
+Pizza,"Cheese, tomatoes, dough",,true
+Soup,"Vegetables, water",,true
+garlic bread,"garlic, bread",,true
+"""PERFECTLY CHOCOLATE"" Chocolate Cake",Chocolate cake that melts in your mouth for the best chocolate delight every time.,,true
+Chocolate Jumbo,Frosted chocolate and molasses spicy cookie.,24,false
+Grilled Chocolate Sandwich,"This is JUST like making a grilled cheese, but you are using chocolate! Created this while craving chocolate and carbs.",10 mins,false
+djkhas,sda,0,false
